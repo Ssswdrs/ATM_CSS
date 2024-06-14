@@ -221,3 +221,7 @@ h3{
         box-shadow: 0px 0px 25px 10px var(--neon-shadow), inset 0px 0px 25px 10px var(--neon-shadow);
     }
 }
+
+.credit{
+    font-size: 0.7vw;
+}
