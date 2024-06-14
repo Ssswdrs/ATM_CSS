@@ -116,7 +116,7 @@ body {
     position: absolute;
     top: -867.5%;
     left: 70%;
-    width: 24%;
+    width: 23%;
     height: 45vh;
     clip-path: polygon(0 0, 0 25%, 0 38%, 0 50%, 0 67%, 0 100%, 11% 100%, 34% 100%, 85% 100%, 91% 85%, 95% 72%, 97% 55%, 97% 41%, 95% 24%, 91% 11%, 85% 0, 71% 0, 26% 0%);
     background: linear-gradient(0deg, rgba(62, 62, 61, 1) 0%, rgba(95, 95, 95, 1) 6%, rgba(192, 192, 192, 1) 28%, rgba(216, 216, 216, 1) 50%, rgba(135, 136, 135, 1) 100%);
@@ -125,10 +125,17 @@ body {
 .button {
     position: absolute;
     top: 50%;
-    left: 25%;
+    left: 1vw;
     background: #535353;
     color: white;
     border-radius: 5px;
+    width: 6vw;
+    height: fit-content;
+    margin-right: 25%;
+}
+
+h3{
+    font-size: 1.5vw;
 }
 
 .button:hover{
@@ -143,7 +150,7 @@ body {
     width: 92%;
     height: 17.5vh;
     background: #686968;
-    clip-path: polygon(0 0, 100% 0, 94% 100%, 10% 100%);
+    clip-path: polygon(0 0, 100% 0, 93% 100%, 10% 100%);
 }
 
 .light {
@@ -153,13 +160,13 @@ body {
     width: 76%;
     height: 10vh;
     background: #ffffff;
-    clip-path: polygon(0 0, 100% 0, 94% 100%, 10% 100%);
+    clip-path: polygon(0 0, 100% 0, 93% 100%, 10% 100%);
 }
 
 
 .text {
     position: absolute;
-    top: -179.8%;
+    top: -183%;
     resize: none;
     border-color: transparent;
     outline: none;
